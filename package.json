@@ -10,10 +10,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/ParveenBhadooOfficial/Google-Drive-Index.git"
+    "url": "git+https://github.com/askfriends/BhDriveIndex.git"
   },
   "bugs": {
     "url": "https://gitlab.com/ParveenBhadooOfficial/Google-Drive-Index/issues"
   },
-  "homepage": "https://gitlab.com/ParveenBhadooOfficial/Google-Drive-Index/-/blob/master/README.md"
+  "homepage": "https://github.com/askfriends/BhDriveIndex/-/blob/master/README.md"
 }
