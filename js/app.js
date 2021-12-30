@@ -286,6 +286,11 @@ function list(path) {
     content += `</ol>
   </nav>
   </div>
+  <br>
+  <div style="text-align:center;">
+<a href="https://ibb.co/sqwvfNq"><img src="https://i.ibb.co/qpsMScp/720x90-adsterra-reff.gif" alt="720x90-adsterra-reff" border="0"></a>
+<br>
+</div>
     <div id="list" class="list-group text-break">
     </div>
     <div class="${UI.file_count_alert_class} text-center d-none" role="alert" id="count">Total <span class="number text-center"></span> items</div>
@@ -950,6 +955,10 @@ function file_video(path) {
   <div class="card text-center">
   <div class="text-center">
   <div class="${UI.file_view_alert_class}" id="file_details" role="alert">${obj.name}<br>${size}</div>
+  <div style="text-align:center;">
+<a href="https://ibb.co/sqwvfNq"><img src="https://i.ibb.co/qpsMScp/720x90-adsterra-reff.gif" alt="720x90-adsterra-reff" border="0"></a>
+<br>
+  </div>
   <video id="vplayer" width="100%" height="100%" playsinline controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'captions', 'settings', 'pip', 'airplay', 'fullscreen']; data-plyr-config="{ "title": "${decodename}"}" data-poster="${poster}" style="--plyr-captions-text-color: #ffffff;--plyr-captions-background: #000000;">
     <source src="${url}" type="video/mp4" />
     <source src="${url}" type="video/webm" />
@@ -976,6 +985,7 @@ ${UI.disable_video_download ? `` : `
 <div class="card-body">
 <div style="text-align:center;">
 <a href="https://ibb.co/sqwvfNq"><img src="https://i.ibb.co/qpsMScp/720x90-adsterra-reff.gif" alt="720x90-adsterra-reff" border="0"></a>
+<br>
 </div>
 <div class="input-group mb-4">
   <div class="input-group-prepend">
