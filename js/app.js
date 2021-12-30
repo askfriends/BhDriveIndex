@@ -813,7 +813,7 @@ function file_others(path) {
   <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Copy</span> </button>
   </div>
   <div>
-  <center><p>This is Test</p></center
+  <center><p>This is Test</p></center>
   <br></div>`;
                 }
             } catch (err) {
