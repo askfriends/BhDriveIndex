@@ -974,6 +974,9 @@ function file_video(path) {
   </script></br>
 ${UI.disable_video_download ? `` : `
 <div class="card-body">
+<div style="text-align:center;">
+<a href="https://ibb.co/sqwvfNq"><img src="https://i.ibb.co/qpsMScp/720x90-adsterra-reff.gif" alt="720x90-adsterra-reff" border="0"></a>
+</div>
 <div class="input-group mb-4">
   <div class="input-group-prepend">
     <span class="input-group-text" id="">Full URL</span>
@@ -1000,10 +1003,7 @@ ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://d
       <a class="dropdown-item" href="intent:${url}#Intent;component=idm.internet.download.manager.plus/idm.internet.download.manager.Downloader;S.title=${decodename};end">1DM+ (Plus)</a>
     </div>
 </div>
-<a href="${url}" type="button" class="btn btn-primary">Download</a>
-    <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="sr-only"></span>
-    </button>
+
 <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Copy</span> </button>
 <br>
   </div>
