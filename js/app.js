@@ -288,7 +288,7 @@ function list(path) {
   </div>
   <br>
   <div style="text-align:center;">
-  <script type="text/javascript">
+  
 	atOptions = {
 		'key' : 'fb25fc9e798c9f7a5fc559f6bb81814a',
 		'format' : 'iframe',
@@ -963,7 +963,6 @@ function file_video(path) {
   <div class="text-center">
   <div class="${UI.file_view_alert_class}" id="file_details" role="alert">${obj.name}<br>${size}</div>
   <div style="text-align:center;">
-<script type="text/javascript">
 	atOptions = {
 		'key' : 'fb25fc9e798c9f7a5fc559f6bb81814a',
 		'format' : 'iframe',
@@ -999,7 +998,6 @@ function file_video(path) {
 ${UI.disable_video_download ? `` : `
 <div class="card-body">
 <div style="text-align:center;">
-<script type="text/javascript">
 	atOptions = {
 		'key' : 'f4e990b626553dd2e4692a6ffd6310b3',
 		'format' : 'iframe',
@@ -1019,10 +1017,7 @@ ${UI.disable_video_download ? `` : `
 ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
 <div class="btn-group text-center">
 <a href="https://www.trustedcpmrevenue.com/jy9prs9sxb?key=03abb46df6262187499fabf9cb072f90" type="button" class="btn btn-primary">HD FAST DOWNLOAD</a>
-    <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="sr-only"></span>
-    </button>
-    <a href="${url}" type="button" class="btn btn-primary">Download</a>
+       <a href="${url}" type="button" class="btn btn-primary">Download</a>
     <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       <span class="sr-only"></span>
     </button>
