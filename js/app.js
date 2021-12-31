@@ -288,8 +288,7 @@ function list(path) {
   </div>
   <br>
   <div style="text-align:center;">
-<a href="https://publishers.adsterra.com/referral/yFnJNjfdHq"><img src="https://i.ibb.co/qpsMScp/720x90-adsterra-reff.gif" alt="Free Sign Up" border="0"></a>
-</div><br>
+<iframe src="//www.effectivedisplaycontent.com/watchnew?key=fb25fc9e798c9f7a5fc559f6bb81814a" width="728" height="90" frameborder="0" scrolling="no"></iframe></div><br>
     <div id="list" class="list-group text-break">
     </div>
     <div class="${UI.file_count_alert_class} text-center d-none" role="alert" id="count">Total <span class="number text-center"></span> items</div>
@@ -955,8 +954,7 @@ function file_video(path) {
   <div class="text-center">
   <div class="${UI.file_view_alert_class}" id="file_details" role="alert">${obj.name}<br>${size}</div>
   <div style="text-align:center;">
-<a href="https://publishers.adsterra.com/referral/yFnJNjfdHq"><img src="https://i.ibb.co/qpsMScp/720x90-adsterra-reff.gif" alt="Free Sign Up" border="0"></a>
-</div><br>
+<iframe src="//www.effectivedisplaycontent.com/watchnew?key=fb25fc9e798c9f7a5fc559f6bb81814a" width="728" height="90" frameborder="0" scrolling="no"></iframe></div><br>
   <video id="vplayer" width="100%" height="100%" playsinline controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'captions', 'settings', 'pip', 'airplay', 'fullscreen']; data-plyr-config="{ "title": "${decodename}"}" data-poster="${poster}" style="--plyr-captions-text-color: #ffffff;--plyr-captions-background: #000000;">
     <source src="${url}" type="video/mp4" />
     <source src="${url}" type="video/webm" />
@@ -982,8 +980,7 @@ function file_video(path) {
 ${UI.disable_video_download ? `` : `
 <div class="card-body">
 <div style="text-align:center;">
-<a href="https://publishers.adsterra.com/referral/yFnJNjfdHq"><img src="https://i.ibb.co/qpsMScp/720x90-adsterra-reff.gif" alt="Free Sign Up" border="0"></a>
-</div><br>
+<iframe src="//www.effectivedisplaycontent.com/watchnew?key=f4e990b626553dd2e4692a6ffd6310b3" width="468" height="60" frameborder="0" scrolling="no"></iframe></div><br>
 <div class="input-group mb-4">
   <div class="input-group-prepend">
     <span class="input-group-text" id="">Full URL</span>
