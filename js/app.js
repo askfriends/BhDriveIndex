@@ -1046,7 +1046,7 @@ ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://d
   </div>
   </div>
   <div style="text-align:center;">
-<a href="https://ibb.co/sqwvfNq"><img src="https://i.ibb.co/qpsMScp/720x90-adsterra-reff.gif" alt="720x90-adsterra-reff" border="0"></a>
+<a href="https://publishers.adsterra.com/referral/yFnJNjfdHq"><img src="https://i.ibb.co/qpsMScp/720x90-adsterra-reff.gif" alt="Free Sign Up" border="0"></a>
 </div><br>
   `}
   </div>
