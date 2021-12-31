@@ -288,7 +288,7 @@ function list(path) {
   </div>
   <br>
   <div style="text-align:center;">
-<iframe src="//www.effectivedisplaycontent.com/watchnew?key=fb25fc9e798c9f7a5fc559f6bb81814a" width="728" height="90" frameborder="0" scrolling="no"></iframe></div><br>
+<iframe src="//www.effectivedisplaycontent.com/watchnew?key=6bbd4d762bd99c3ebcd8db34f51ac91c" width="728" height="90" frameborder="0" scrolling="no"></iframe></div><br>
     <div id="list" class="list-group text-break">
     </div>
     <div class="${UI.file_count_alert_class} text-center d-none" role="alert" id="count">Total <span class="number text-center"></span> items</div>
@@ -954,7 +954,7 @@ function file_video(path) {
   <div class="text-center">
   <div class="${UI.file_view_alert_class}" id="file_details" role="alert">${obj.name}<br>${size}</div>
   <div style="text-align:center;">
-<iframe src="//www.effectivedisplaycontent.com/watchnew?key=fb25fc9e798c9f7a5fc559f6bb81814a" width="728" height="90" frameborder="0" scrolling="no"></iframe></div><br>
+<iframe src="//www.effectivedisplaycontent.com/watchnew?key=6bbd4d762bd99c3ebcd8db34f51ac91c" width="728" height="90" frameborder="0" scrolling="no"></iframe></div><br>
   <video id="vplayer" width="100%" height="100%" playsinline controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'captions', 'settings', 'pip', 'airplay', 'fullscreen']; data-plyr-config="{ "title": "${decodename}"}" data-poster="${poster}" style="--plyr-captions-text-color: #ffffff;--plyr-captions-background: #000000;">
     <source src="${url}" type="video/mp4" />
     <source src="${url}" type="video/webm" />
@@ -980,7 +980,7 @@ function file_video(path) {
 ${UI.disable_video_download ? `` : `
 <div class="card-body">
 <div style="text-align:center;">
-<iframe src="//www.effectivedisplaycontent.com/watchnew?key=f4e990b626553dd2e4692a6ffd6310b3" width="468" height="60" frameborder="0" scrolling="no"></iframe></div><br>
+<iframe src="//www.effectivedisplaycontent.com/watchnew?key=61f7457e409eacb080ccde6b1dd50bd6" width="468" height="60" frameborder="0" scrolling="no"></iframe></div><br>
 <div class="input-group mb-4">
   <div class="input-group-prepend">
     <span class="input-group-text" id="">Full URL</span>
@@ -989,7 +989,7 @@ ${UI.disable_video_download ? `` : `
 </div>
 ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
 <div class="btn-group text-center">
-<a href="https://www.trustedcpmrevenue.com/jy9prs9sxb?key=03abb46df6262187499fabf9cb072f90" type="button" class="btn btn-primary">HD FAST DOWNLOAD</a>
+<a href="https://www.trustedcpmrevenue.com/jju6023q?key=2f9354c805bf9a846f676da9622b5588" type="button" class="btn btn-primary">HD FAST DOWNLOAD</a>
        <a href="${url}" type="button" class="btn btn-primary">Download</a>
     <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       <span class="sr-only"></span>
