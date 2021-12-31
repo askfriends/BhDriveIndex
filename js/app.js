@@ -1054,7 +1054,10 @@ function file_audio(path) {
   <div class="card" style="background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);">
   <div class="card-body text-center">
   <div class="${UI.file_view_alert_class}" id="file_details" role="alert">${obj.name}<br>${size}</div>
-  <br><img draggable="false" src="${UI.audioposter}" width="100%" /><br>
+  <br>
+<div style="text-align:center;">
+<iframe src="//www.effectivedisplaycontent.com/watchnew?key=6bbd4d762bd99c3ebcd8db34f51ac91c" width="728" height="90" frameborder="0" scrolling="no"></iframe></div><br>
+<img draggable="false" src="${UI.audioposter}" width="100%" /><br>
   <audio id="vplayer" width="100%" playsinline controls>
     <source src="${url}" type="audio/ogg">
     <source src="${url}" type="audio/mpeg">
@@ -1065,6 +1068,8 @@ function file_audio(path) {
   <script>
    const player = new Plyr('#vplayer');
   </script></br>
+  <div style="text-align:center;">
+<iframe src="//www.effectivedisplaycontent.com/watchnew?key=61f7457e409eacb080ccde6b1dd50bd6" width="468" height="60" frameborder="0" scrolling="no"></iframe></div><br>
   <div class="card-body">
 <div class="input-group mb-4">
   <div class="input-group-prepend">
@@ -1074,18 +1079,8 @@ function file_audio(path) {
 </div>
   <div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
-  <div class="btn-group text-center">
-      <a href="${url}" type="button" class="btn btn-primary">Download</a>
-      <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <span class="sr-only"></span>
-      </button>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="intent:${url}#Intent;component=idm.internet.download.manager/idm.internet.download.manager.Downloader;S.title=${decodename};end">1DM (Free)</a>
-        <a class="dropdown-item" href="intent:${url}#Intent;component=idm.internet.download.manager.adm.lite/idm.internet.download.manager.Downloader;S.title=${decodename};end">1DM (Lite)</a>
-        <a class="dropdown-item" href="intent:${url}#Intent;component=idm.internet.download.manager.plus/idm.internet.download.manager.Downloader;S.title=${decodename};end">1DM+ (Plus)</a>
-      </div>
-  </div>
-  <div class="btn-group text-center">
+    <div class="btn-group text-center">
+    <a href="https://www.trustedcpmrevenue.com/jju6023q?key=2f9354c805bf9a846f676da9622b5588" type="button" class="btn btn-primary">HQ FAST DOWNLOAD</a>
       <a href="${url}" type="button" class="btn btn-primary">Download</a>
       <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <span class="sr-only"></span>
@@ -1098,6 +1093,9 @@ function file_audio(path) {
   </div>
   <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Copy</span> </button></div><br>
   </div>
+  <div style="text-align:center;">
+<a href="https://publishers.adsterra.com/referral/yFnJNjfdHq"><img src="https://i.ibb.co/qpsMScp/720x90-adsterra-reff.gif" alt="Free Sign Up" border="0"></a>
+</div><br>
   </div>
   </div>
   `;
