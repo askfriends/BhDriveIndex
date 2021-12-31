@@ -873,10 +873,6 @@ function file_others(path) {
       </div>
   </div>
   <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Copy</span> </button>
-<a href="${url}" type="button" class="btn btn-primary">DEMO BUTTON</a>
-      <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <span class="sr-only"></span>
-      </button>
   </div>
   <br></div>`;
                 }
@@ -1018,8 +1014,7 @@ function file_video(path) {
 		'params' : {}
 	};
 	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivedisplaycontent.com/fb25fc9e798c9f7a5fc559f6bb81814a/invoke.js"></scr' + 'ipt>');
-</script>
-</div><br>
+</script></div><br>
   <video id="vplayer" width="100%" height="100%" playsinline controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'captions', 'settings', 'pip', 'airplay', 'fullscreen']; data-plyr-config="{ "title": "${decodename}"}" data-poster="${poster}" style="--plyr-captions-text-color: #ffffff;--plyr-captions-background: #000000;">
     <source src="${url}" type="video/mp4" />
     <source src="${url}" type="video/webm" />
@@ -1054,8 +1049,7 @@ ${UI.disable_video_download ? `` : `
 		'params' : {}
 	};
 	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.effectivedisplaycontent.com/f4e990b626553dd2e4692a6ffd6310b3/invoke.js"></scr' + 'ipt>');
-</script>
-</div><br>
+</script></div><br>
 <div class="input-group mb-4">
   <div class="input-group-prepend">
     <span class="input-group-text" id="">Full URL</span>
