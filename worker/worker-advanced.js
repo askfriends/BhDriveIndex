@@ -27,7 +27,6 @@ const authConfig = {
     "search_result_list_page_size": 50,
     "enable_cors_file_down": false,
     "enable_password_file_verify": true, // support for .password file
-    "enable_virus_infected_file_down": true, // support for downloading virus infected files
     "direct_link_protection": false, // protects direct links with Display UI
     "roots":[
       {
@@ -102,7 +101,7 @@ const uiConfig = {
     "downloaddomain": domain_for_dl, // Ignore this and set domains at top of this page after service accounts.
     "poster": "https://cdn.jsdelivr.net/npm/@googledrive/index@2.0.20/images/poster.jpg", // Video poster URL or see Readme to how to load from Drive
     "audioposter": "https://cdn.jsdelivr.net/npm/@googledrive/index@2.0.20/images/music.jpg", // Video poster URL or see Readme to how to load from Drive
-    "jsdelivr_cdn_src": "https://cdn.jsdelivr.net/gh/askfriends/BhDriveIndex", // If Project is Forked, then enter your GitHub repo
+    "jsdelivr_cdn_src": "https://cdn.jsdelivr.net/npm/@googledrive/index", // If Project is Forked, then enter your GitHub repo
     "render_head_md": true, // Render Head.md
     "render_readme_md": true, // Render Readme.md
     "display_drive_link": false, // This will add a Link Button to Google Drive of that particular file.
@@ -363,50 +362,6 @@ const not_found = `<!DOCTYPE html>
   </html>
   `
 
-  const virusdetected = `<html>
-  <head>
-  <title>Virus Detected</title>
-  <link href='https://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
-  <style>
-  body{
-      margin:0;
-      padding:0;
-      width:100%;
-      height:100%;
-      color:#b0bec5;
-      display:table;
-      font-weight:100;
-      font-family:Lato
-  }
-  .container{
-      text-align:center;
-      display:table-cell;
-      vertical-align:middle
-  }
-  .content{
-      text-align:center;
-      display:inline-block
-  }
-  .message{
-      font-size:80px;
-      margin-bottom:40px
-  }
-  a{
-      text-decoration:none;
-      color:#3498db
-  }
-
-  </style>
-  </head>
-  <body>
-  <div class="container">
-  <div class="content">
-  <div class="message">Virus Detected</div>
-  </div>
-  </div>
-  </body>
-  </html>`
-
 const SearchFunction = {
     formatSearchKeyword: function(keyword) {
         let nothing = "";
@@ -516,6 +471,7 @@ async function handleRequest(request) {
     let gd;
     let url = new URL(request.url);
     let path = url.pathname;
+    let hostname = url.hostname;
 
     function redirectToIndexPage() {
         return new Response('', {
@@ -545,13 +501,28 @@ async function handleRequest(request) {
                 },
                 status: 401
             });
-    } else if (referer != url && authConfig['direct_link_protection']) {
-        return new Response(directlink, {
-                headers: {
-                    'content-type': 'text/html;charset=UTF-8'
-                },
-                status: 401
-            });
+    }
+
+    if (authConfig['direct_link_protection']) {
+      if (referer == null){
+          return new Response(directlink, {
+                  headers: {
+                      'content-type': 'text/html;charset=UTF-8'
+                  },
+                  status: 401
+              });
+          console.log("Refer Null");
+      } else if (referer.includes(hostname)) {
+          console.log("Refer Detected");
+      } else {
+          return new Response(directlink, {
+                  headers: {
+                      'content-type': 'text/html;charset=UTF-8'
+                  },
+                  status: 401
+              });
+          console.log("Wrong Refer URL");
+      }
     }
 
     const command_reg = /^\/(?<num>\d+):(?<command>[a-zA-Z0-9]+)(\/.*)?$/g;
@@ -622,16 +593,27 @@ async function handleRequest(request) {
             }
         });
     } else {
-        if (path.split('/').pop().toLowerCase() == ".password") {
-            return basic_auth_res || new Response("", {
-                status: 404
-            });
-        }
-        let file = await gd.file(path);
-        let range = request.headers.get('Range');
-        const inline_down = 'true' === url.searchParams.get('inline');
-        if (gd.root.protect_file_link && basic_auth_res) return basic_auth_res;
-        return gd.down(file?.id, range, inline_down);
+      try {
+      if (path.split('/').pop().toLowerCase() == ".password") {
+          return basic_auth_res || new Response("", {
+              status: 404
+          });
+      }
+      let file = await gd.file(path);
+      let range = request.headers.get('Range');
+      const inline_down = 'true' === url.searchParams.get('inline');
+      if (gd.root.protect_file_link && basic_auth_res) return basic_auth_res;
+      return gd.down(file?.id, range, inline_down);
+      }
+      catch {
+              return new Response(not_found, {
+                  status: 404,
+                  headers: {
+                      "content-type": "text/html;charset=UTF-8",
+                  },
+              })
+      }
+
     }
 }
 
@@ -800,25 +782,6 @@ class googleDrive {
             this.authConfig.enable_cors_file_down && headers.append('Access-Control-Allow-Origin', '*');
             inline === true && headers.set('Content-Disposition', 'inline');
             return res;
-        }
-        else if (res.status === 403) {
-                if (this.authConfig.enable_virus_infected_file_down) {
-                url += '&acknowledgeAbuse=true';
-                res = await this.fetch200(url, requestOption);
-                const { headers } = res = new Response(res.body, res)
-                this.authConfig.enable_cors_file_down && headers.append('Access-Control-Allow-Origin', '*');
-                inline === true && headers.set('Content-Disposition', 'inline');
-                return res;
-                }
-                else {
-                    return new Response(virusdetected, {
-                        status: 404,
-                        headers: {
-                            "content-type": "text/html;charset=UTF-8",
-                        },
-                    })
-                }
-
         }
         else if(res.status == 404){
             return new Response(not_found, {
