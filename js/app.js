@@ -347,6 +347,8 @@ function list(path) {
     var content = `<div class="container">${UI.fixed_header ?'<br>': ''}
   <div id="update"></div>
     <div id="head_md" style="display:none; padding: 20px 20px;"></div>
+    <div style="text-align:center;">
+    <iframe src="//www.effectivedisplaycontent.com/watchnew?key=fb25fc9e798c9f7a5fc559f6bb81814a" width="728" height="90" frameborder="0" scrolling="no"></iframe></div>
     <div class="${UI.path_nav_alert_class} d-flex align-items-center" role="alert" style="margin-bottom: 0; padding-bottom: 0rem;">
   <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
     <ol class="breadcrumb" id="folderne"><li class="breadcrumb-item"><a href="/">Home</a></li>`;
@@ -957,11 +959,15 @@ function file_code(path) {
 <div class="card text-center">
 <div class="card-body text-center">
   <div class="${UI.file_view_alert_class}" id="file_details" role="alert">${obj.name}<br>${size}</div>
+  <div style="text-align:center;">
+  <iframe src="//www.effectivedisplaycontent.com/watchnew?key=fb25fc9e798c9f7a5fc559f6bb81814a" width="728" height="90" frameborder="0" scrolling="no"></iframe></div>
 <div>
 <pre ${UI.second_domain_for_dl ? 'style="display:none;"': 'style="display:block;"'} class="line-numbers language-markup" data-src="plugins/line-numbers/index.html" data-start="-5" style="white-space: pre-wrap; counter-reset: linenumber -6;" data-src-status="loaded" tabindex="0"><code id="editor"></code></pre>
 </div>
 </div>
 <div class="card-body">
+<div style="text-align:center;">
+<iframe src="//www.effectivedisplaycontent.com/watchnew?key=f4e990b626553dd2e4692a6ffd6310b3" width="468" height="60" frameborder="0" scrolling="no"></iframe></div>
 <div class="input-group mb-4">
   <div class="input-group-prepend">
     <span class="input-group-text" id="">Full URL</span>
@@ -971,6 +977,7 @@ function file_code(path) {
   <div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
   <div class="btn-group text-center">
+  <a href="https://www.trustedcpmrevenue.com/jy9prs9sxb?key=03abb46df6262187499fabf9cb072f90" type="button" class="btn btn-primary">HD FAST DOWNLOAD</a>
       <a href="${url}" type="button" class="btn btn-primary">Download</a>
       <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <span class="sr-only"></span>
