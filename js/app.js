@@ -900,6 +900,7 @@ function file_others(path) {
   <div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
   <div class="btn-group text-center">
+  <a href="https://www.trustedcpmrevenue.com/jju6023q?key=2f9354c805bf9a846f676da9622b5588" type="button" class="btn btn-primary">HQ FAST DOWNLOAD</a>
       <a href="${url}" type="button" class="btn btn-primary">Download</a>
       <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <span class="sr-only"></span>
@@ -912,7 +913,10 @@ function file_others(path) {
   </div>
   <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Copy</span> </button>
   </div>
-  <br></div>`;
+  <br></div>
+  <div style="text-align:center;">
+<a href="https://publishers.adsterra.com/referral/yFnJNjfdHq"><img src="https://i.ibb.co/qpsMScp/720x90-adsterra-reff.gif" alt="Free Sign Up" border="0"></a>
+</div><br>`;
                 }
             } catch (err) {
                 var content = `
@@ -981,6 +985,7 @@ function file_code(path) {
   <div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
   <div class="btn-group text-center">
+  <a href="https://www.trustedcpmrevenue.com/jju6023q?key=2f9354c805bf9a846f676da9622b5588" type="button" class="btn btn-primary">HQ FAST DOWNLOAD</a>
       <a href="${url}" type="button" class="btn btn-primary">Download</a>
       <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <span class="sr-only"></span>
@@ -992,6 +997,9 @@ function file_code(path) {
       </div>
   </div>
   <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Copy</span> </button></div><br></div>
+  <div style="text-align:center;">
+<a href="https://publishers.adsterra.com/referral/yFnJNjfdHq"><img src="https://i.ibb.co/qpsMScp/720x90-adsterra-reff.gif" alt="Free Sign Up" border="0"></a>
+</div><br>
 <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.js" integrity="sha256-fZOd7N/oofoKcO92RzxvC0wMm+EvsKyRT4nmcmQbgzU=" crossorigin="anonymous"></script>
 `;
             } catch (err) {
@@ -1175,6 +1183,7 @@ function file_audio(path) {
   <div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
   <div class="btn-group text-center">
+  <a href="https://www.trustedcpmrevenue.com/jju6023q?key=2f9354c805bf9a846f676da9622b5588" type="button" class="btn btn-primary">HQ FAST DOWNLOAD</a>
       <a href="${url}" type="button" class="btn btn-primary">Download</a>
       <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <span class="sr-only"></span>
@@ -1186,6 +1195,9 @@ function file_audio(path) {
       </div>
   </div>
   <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Copy</span> </button></div><br>
+  <div style="text-align:center;">
+<a href="https://publishers.adsterra.com/referral/yFnJNjfdHq"><img src="https://i.ibb.co/qpsMScp/720x90-adsterra-reff.gif" alt="Free Sign Up" border="0"></a>
+</div><br>
   </div>
   </div>
   </div>
@@ -1309,6 +1321,7 @@ function file_pdf(path) {
   <div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
   <div class="btn-group text-center">
+  <a href="https://www.trustedcpmrevenue.com/jju6023q?key=2f9354c805bf9a846f676da9622b5588" type="button" class="btn btn-primary">HQ FAST DOWNLOAD</a>
       <a href="${url}" type="button" class="btn btn-primary">Download</a>
       <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <span class="sr-only"></span>
@@ -1320,6 +1333,9 @@ function file_pdf(path) {
       </div>
   </div>
   <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Copy</span> </button></div><br>
+  <div style="text-align:center;">
+<a href="https://publishers.adsterra.com/referral/yFnJNjfdHq"><img src="https://i.ibb.co/qpsMScp/720x90-adsterra-reff.gif" alt="Free Sign Up" border="0"></a>
+</div><br>
   </div>
   </div>
   </div>
@@ -1421,6 +1437,7 @@ function file_image(path) {
   <div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
   <div class="btn-group text-center">
+  <a href="https://www.trustedcpmrevenue.com/jju6023q?key=2f9354c805bf9a846f676da9622b5588" type="button" class="btn btn-primary">HQ FAST DOWNLOAD</a>
       <a href="${url}" type="button" class="btn btn-primary">Download</a>
       <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <span class="sr-only"></span>
@@ -1432,6 +1449,9 @@ function file_image(path) {
       </div>
   </div>
   <button onclick="copyFunction()" onmouseout="outFunc()" class="btn btn-success"> <span class="tooltiptext" id="myTooltip">Copy</span> </button></div><br>
+  <div style="text-align:center;">
+<a href="https://publishers.adsterra.com/referral/yFnJNjfdHq"><img src="https://i.ibb.co/qpsMScp/720x90-adsterra-reff.gif" alt="Free Sign Up" border="0"></a>
+</div><br>
   </div>
   </div>
   </div>
