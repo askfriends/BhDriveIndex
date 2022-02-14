@@ -885,8 +885,12 @@ function file_others(path) {
 <div class="card text-center">
 <div class="card-body text-center">
   <div class="${UI.file_view_alert_class}" id="file_details" role="alert">${obj.name}<br>${size}</div>
+  <div style="text-align:center;">
+<iframe src="//www.effectivedisplaycontent.com/watchnew?key=6bbd4d762bd99c3ebcd8db34f51ac91c" width="728" height="90" frameborder="0" scrolling="no"></iframe></div><br>
 </div>
 <div class="card-body">
+<div style="text-align:center;">
+<iframe src="//www.effectivedisplaycontent.com/watchnew?key=61f7457e409eacb080ccde6b1dd50bd6" width="468" height="60" frameborder="0" scrolling="no"></iframe></div><br>
 <div class="input-group mb-4">
   <div class="input-group-prepend">
     <span class="input-group-text" id="">Full URL</span>
@@ -959,11 +963,15 @@ function file_code(path) {
 <div class="card text-center">
 <div class="card-body text-center">
   <div class="${UI.file_view_alert_class}" id="file_details" role="alert">${obj.name}<br>${size}</div>
+  <div style="text-align:center;">
+<iframe src="//www.effectivedisplaycontent.com/watchnew?key=6bbd4d762bd99c3ebcd8db34f51ac91c" width="728" height="90" frameborder="0" scrolling="no"></iframe></div><br>
 <div>
 <pre ${UI.second_domain_for_dl ? 'style="display:none;"': 'style="display:block;"'} class="line-numbers language-markup" data-src="plugins/line-numbers/index.html" data-start="-5" style="white-space: pre-wrap; counter-reset: linenumber -6;" data-src-status="loaded" tabindex="0"><code id="editor"></code></pre>
 </div>
 </div>
 <div class="card-body">
+<div style="text-align:center;">
+<iframe src="//www.effectivedisplaycontent.com/watchnew?key=61f7457e409eacb080ccde6b1dd50bd6" width="468" height="60" frameborder="0" scrolling="no"></iframe></div><br>
 <div class="input-group mb-4">
   <div class="input-group-prepend">
     <span class="input-group-text" id="">Full URL</span>
@@ -1067,6 +1075,8 @@ function file_video(path) {
 <iframe src="//www.effectivedisplaycontent.com/watchnew?key=61f7457e409eacb080ccde6b1dd50bd6" width="468" height="60" frameborder="0" scrolling="no"></iframe></div><br>
 ${UI.disable_video_download ? `` : `
 <div class="card-body">
+<div style="text-align:center;">
+<iframe src="//www.effectivedisplaycontent.com/watchnew?key=61f7457e409eacb080ccde6b1dd50bd6" width="468" height="60" frameborder="0" scrolling="no"></iframe></div><br>
 <div class="input-group mb-4">
   <div class="input-group-prepend">
     <span class="input-group-text" id="">Full URL</span>
@@ -1140,6 +1150,8 @@ function file_audio(path) {
   <div class="card" style="background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);">
   <div class="card-body text-center">
   <div class="${UI.file_view_alert_class}" id="file_details" role="alert">${obj.name}<br>${size}</div>
+  <div style="text-align:center;">
+<iframe src="//www.effectivedisplaycontent.com/watchnew?key=6bbd4d762bd99c3ebcd8db34f51ac91c" width="728" height="90" frameborder="0" scrolling="no"></iframe></div><br>
   <br><img draggable="false" src="${UI.audioposter}" width="100%" /><br>
   <audio id="vplayer" width="100%" playsinline controls>
     <source src="${url}" type="audio/ogg">
@@ -1152,6 +1164,8 @@ function file_audio(path) {
    const player = new Plyr('#vplayer');
   </script></br>
   <div class="card-body">
+  <div style="text-align:center;">
+<iframe src="//www.effectivedisplaycontent.com/watchnew?key=61f7457e409eacb080ccde6b1dd50bd6" width="468" height="60" frameborder="0" scrolling="no"></iframe></div><br>
 <div class="input-group mb-4">
   <div class="input-group-prepend">
     <span class="input-group-text" id="">Full URL</span>
@@ -1273,6 +1287,8 @@ function file_pdf(path) {
   <div class="card">
   <div class="card-body text-center">
   <div class="${UI.file_view_alert_class}" id="file_details" role="alert">${obj.name}<br>${size}</div>
+  <div style="text-align:center;">
+<iframe src="//www.effectivedisplaycontent.com/watchnew?key=6bbd4d762bd99c3ebcd8db34f51ac91c" width="728" height="90" frameborder="0" scrolling="no"></iframe></div><br>
   <div>
   <button id="prev" class="btn btn-info">Previous</button>
   <button id="next" class="btn btn-info">Next</button>
@@ -1282,6 +1298,8 @@ function file_pdf(path) {
   <canvas id="the-canvas" style="max-width: 100%;"></canvas>
   </div>
   <div class="card-body">
+  <div style="text-align:center;">
+<iframe src="//www.effectivedisplaycontent.com/watchnew?key=61f7457e409eacb080ccde6b1dd50bd6" width="468" height="60" frameborder="0" scrolling="no"></iframe></div><br>
 <div class="input-group mb-4">
   <div class="input-group-prepend">
     <span class="input-group-text" id="">Full URL</span>
@@ -1386,10 +1404,14 @@ function file_image(path) {
   <div class="card">
   <div class="card-body text-center">
   <div class="${UI.file_view_alert_class}" id="file_details" role="alert">${obj.name}<br>${size}</div>
+  <div style="text-align:center;">
+<iframe src="//www.effectivedisplaycontent.com/watchnew?key=6bbd4d762bd99c3ebcd8db34f51ac91c" width="728" height="90" frameborder="0" scrolling="no"></iframe></div><br>
   <div>${targetText}</div><br>
   <img src="${url}" width="50%">
   </div>
   <div class="card-body">
+  <div style="text-align:center;">
+<iframe src="//www.effectivedisplaycontent.com/watchnew?key=61f7457e409eacb080ccde6b1dd50bd6" width="468" height="60" frameborder="0" scrolling="no"></iframe></div><br>
 <div class="input-group mb-4">
   <div class="input-group-prepend">
     <span class="input-group-text" id="">Full URL</span>
