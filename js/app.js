@@ -608,7 +608,7 @@ function render_search_result_list() {
   <div class="container"><br>
   <div id="update"></div>
   <div style="text-align:center;">
-<iframe src="//www.highconvertingformats.com/watchnew?key=93eba8acd0711afad1dad95466cb35e2" width="728" height="90" frameborder="0" scrolling="no"></iframe></div><br>
+<iframe src="//www.effectivedisplayformats.com/watchnew?key=2e2a9456e19ab31c427db4dd29e81e08" width="728" height="90" frameborder="0" scrolling="no"></iframe></div><br>
   <div class="card">
   <div class="${UI.path_nav_alert_class} d-flex align-items-center" role="alert" style="margin-bottom: 0;">Search Results</div>
   <div id="list" class="list-group text-break">
@@ -791,7 +791,7 @@ function onSearchResultItemClick(a_ele) {
             }
             title = `Result`;
             $('#SearchModelLabel').html(title);
-            content = `<a class="btn btn-info" href="${ehrefurl}">Open</a> <a class="btn btn-info" href="https://www.effectivecpmcontent.com/fnhu9h6khb?key=1c7bb61cfb671997c5d8bd6c82f2f6c7">Download</a> <a class="btn btn-secondary" href="${ehrefurl}" target="_blank">Open in New Tab</a>`;
+            content = `<a class="btn btn-info" href="${ehrefurl}">Open</a> <a class="btn btn-info" href="https://www.safestgatetocontent.com/dd96h6n0b?key=3c40440077127b1eae59339de7681597">Download</a> <a class="btn btn-secondary" href="${ehrefurl}" target="_blank">Open in New Tab</a>`;
             $('#modal-body-space').html(content);
             return;
         }
@@ -886,11 +886,11 @@ function file_others(path) {
 <div class="card-body text-center">
   <div class="${UI.file_view_alert_class}" id="file_details" role="alert">${obj.name}<br>${size}</div>
   <div style="text-align:center;">
-<iframe src="//www.highconvertingformats.com/watchnew?key=93eba8acd0711afad1dad95466cb35e2" width="728" height="90" frameborder="0" scrolling="no"></iframe></div><br>
+<iframe src="//www.effectivedisplayformats.com/watchnew?key=2e2a9456e19ab31c427db4dd29e81e08" width="728" height="90" frameborder="0" scrolling="no"></iframe></div><br>
 </div>
 <div class="card-body">
 <div style="text-align:center;">
-<iframe src="//www.highconvertingformats.com/watchnew?key=68abc6369e0cb0783b5fa66e913ca4fc" width="468" height="60" frameborder="0" scrolling="no"></iframe></div><br>
+<iframe src="//www.effectivedisplayformats.com/watchnew?key=7527a6e66c9a683813d8fe80219cbb1e" width="468" height="60" frameborder="0" scrolling="no"></iframe></div><br>
 <div class="input-group mb-4">
   <div class="input-group-prepend">
     <span class="input-group-text" id="">Full URL</span>
@@ -900,7 +900,7 @@ function file_others(path) {
   <div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
   <div class="btn-group text-center">
-  <a href="https://www.effectivecpmcontent.com/fnhu9h6khb?key=1c7bb61cfb671997c5d8bd6c82f2f6c7" type="button" class="btn btn-primary">HQ FAST DOWNLOAD</a>
+  <a href="https://www.safestgatetocontent.com/dd96h6n0b?key=3c40440077127b1eae59339de7681597" type="button" class="btn btn-primary">HQ FAST DOWNLOAD</a>
       <a href="${url}" type="button" class="btn btn-primary">Download</a>
       <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <span class="sr-only"></span>
@@ -968,14 +968,14 @@ function file_code(path) {
 <div class="card-body text-center">
   <div class="${UI.file_view_alert_class}" id="file_details" role="alert">${obj.name}<br>${size}</div>
   <div style="text-align:center;">
-<iframe src="//www.highconvertingformats.com/watchnew?key=93eba8acd0711afad1dad95466cb35e2" width="728" height="90" frameborder="0" scrolling="no"></iframe></div><br>
+<iframe src="//www.effectivedisplayformats.com/watchnew?key=2e2a9456e19ab31c427db4dd29e81e08" width="728" height="90" frameborder="0" scrolling="no"></iframe></div><br>
 <div>
 <pre ${UI.second_domain_for_dl ? 'style="display:none;"': 'style="display:block;"'} class="line-numbers language-markup" data-src="plugins/line-numbers/index.html" data-start="-5" style="white-space: pre-wrap; counter-reset: linenumber -6;" data-src-status="loaded" tabindex="0"><code id="editor"></code></pre>
 </div>
 </div>
 <div class="card-body">
 <div style="text-align:center;">
-<iframe src="//www.highconvertingformats.com/watchnew?key=68abc6369e0cb0783b5fa66e913ca4fc" width="468" height="60" frameborder="0" scrolling="no"></iframe></div><br>
+<iframe src="//www.effectivedisplayformats.com/watchnew?key=7527a6e66c9a683813d8fe80219cbb1e" width="468" height="60" frameborder="0" scrolling="no"></iframe></div><br>
 <div class="input-group mb-4">
   <div class="input-group-prepend">
     <span class="input-group-text" id="">Full URL</span>
@@ -985,7 +985,7 @@ function file_code(path) {
   <div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
   <div class="btn-group text-center">
-  <a href="https://www.effectivecpmcontent.com/fnhu9h6khb?key=1c7bb61cfb671997c5d8bd6c82f2f6c7" type="button" class="btn btn-primary">HQ FAST DOWNLOAD</a>
+  <a href="https://www.safestgatetocontent.com/dd96h6n0b?key=3c40440077127b1eae59339de7681597" type="button" class="btn btn-primary">HQ FAST DOWNLOAD</a>
       <a href="${url}" type="button" class="btn btn-primary">Download</a>
       <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <span class="sr-only"></span>
@@ -1056,7 +1056,7 @@ function file_video(path) {
   <div class="${UI.file_view_alert_class}" id="file_details" role="alert">${obj.name}<br>${size}</div>
    <br>
 <div style="text-align:center;">
-<iframe src="//www.highconvertingformats.com/watchnew?key=93eba8acd0711afad1dad95466cb35e2" width="728" height="90" frameborder="0" scrolling="no"></iframe></div><br>
+<iframe src="//www.effectivedisplayformats.com/watchnew?key=2e2a9456e19ab31c427db4dd29e81e08" width="728" height="90" frameborder="0" scrolling="no"></iframe></div><br>
   <video id="vplayer" width="100%" height="100%" playsinline controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'captions', 'settings', 'pip', 'airplay', 'fullscreen']; data-plyr-config="{ "title": "${decodename}"}" data-poster="${poster}" style="--plyr-captions-text-color: #ffffff;--plyr-captions-background: #000000;">
     <source src="${url}" type="video/mp4" />
     <source src="${url}" type="video/webm" />
@@ -1080,11 +1080,11 @@ function file_video(path) {
    const player = new Plyr('#vplayer',{ratio: "${UI.plyr_io_video_resolution}"});
   </script></br>
   <div style="text-align:center;">
-<iframe src="//www.highconvertingformats.com/watchnew?key=68abc6369e0cb0783b5fa66e913ca4fc" width="468" height="60" frameborder="0" scrolling="no"></iframe></div><br>
+<iframe src="//www.effectivedisplayformats.com/watchnew?key=7527a6e66c9a683813d8fe80219cbb1e" width="468" height="60" frameborder="0" scrolling="no"></iframe></div><br>
 ${UI.disable_video_download ? `` : `
 <div class="card-body">
 <div style="text-align:center;">
-<iframe src="//www.highconvertingformats.com/watchnew?key=68abc6369e0cb0783b5fa66e913ca4fc" width="468" height="60" frameborder="0" scrolling="no"></iframe></div><br>
+<iframe src="//www.effectivedisplayformats.com/watchnew?key=7527a6e66c9a683813d8fe80219cbb1e" width="468" height="60" frameborder="0" scrolling="no"></iframe></div><br>
 <div class="input-group mb-4">
   <div class="input-group-prepend">
     <span class="input-group-text" id="">Full URL</span>
@@ -1093,7 +1093,7 @@ ${UI.disable_video_download ? `` : `
 </div>
 ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
 <div class="btn-group text-center">
-<a href="https://www.effectivecpmcontent.com/fnhu9h6khb?key=1c7bb61cfb671997c5d8bd6c82f2f6c7" type="button" class="btn btn-primary">HQ FAST DOWNLOAD</a>
+<a href="https://www.safestgatetocontent.com/dd96h6n0b?key=3c40440077127b1eae59339de7681597" type="button" class="btn btn-primary">HQ FAST DOWNLOAD</a>
     <a href="${url}" type="button" class="btn btn-primary">Download</a>
     <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       <span class="sr-only"></span>
@@ -1159,7 +1159,7 @@ function file_audio(path) {
   <div class="card-body text-center">
   <div class="${UI.file_view_alert_class}" id="file_details" role="alert">${obj.name}<br>${size}</div>
   <div style="text-align:center;">
-<iframe src="//www.highconvertingformats.com/watchnew?key=93eba8acd0711afad1dad95466cb35e2" width="728" height="90" frameborder="0" scrolling="no"></iframe></div><br>
+<iframe src="//www.effectivedisplayformats.com/watchnew?key=2e2a9456e19ab31c427db4dd29e81e08" width="728" height="90" frameborder="0" scrolling="no"></iframe></div><br>
   <br><img draggable="false" src="${UI.audioposter}" width="100%" /><br>
   <audio id="vplayer" width="100%" playsinline controls>
     <source src="${url}" type="audio/ogg">
@@ -1173,7 +1173,7 @@ function file_audio(path) {
   </script></br>
   <div class="card-body">
   <div style="text-align:center;">
-<iframe src="//www.highconvertingformats.com/watchnew?key=68abc6369e0cb0783b5fa66e913ca4fc" width="468" height="60" frameborder="0" scrolling="no"></iframe></div><br>
+<iframe src="//www.effectivedisplayformats.com/watchnew?key=7527a6e66c9a683813d8fe80219cbb1e" width="468" height="60" frameborder="0" scrolling="no"></iframe></div><br>
 <div class="input-group mb-4">
   <div class="input-group-prepend">
     <span class="input-group-text" id="">Full URL</span>
@@ -1183,7 +1183,7 @@ function file_audio(path) {
   <div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
   <div class="btn-group text-center">
-  <a href="https://www.effectivecpmcontent.com/fnhu9h6khb?key=1c7bb61cfb671997c5d8bd6c82f2f6c7" type="button" class="btn btn-primary">HQ FAST DOWNLOAD</a>
+  <a href="https://www.safestgatetocontent.com/dd96h6n0b?key=3c40440077127b1eae59339de7681597" type="button" class="btn btn-primary">HQ FAST DOWNLOAD</a>
       <a href="${url}" type="button" class="btn btn-primary">Download</a>
       <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <span class="sr-only"></span>
@@ -1300,7 +1300,7 @@ function file_pdf(path) {
   <div class="card-body text-center">
   <div class="${UI.file_view_alert_class}" id="file_details" role="alert">${obj.name}<br>${size}</div>
   <div style="text-align:center;">
-<iframe src="//www.highconvertingformats.com/watchnew?key=93eba8acd0711afad1dad95466cb35e2" width="728" height="90" frameborder="0" scrolling="no"></iframe></div><br>
+<iframe src="//www.effectivedisplayformats.com/watchnew?key=2e2a9456e19ab31c427db4dd29e81e08" width="728" height="90" frameborder="0" scrolling="no"></iframe></div><br>
   <div>
   <button id="prev" class="btn btn-info">Previous</button>
   <button id="next" class="btn btn-info">Next</button>
@@ -1311,7 +1311,7 @@ function file_pdf(path) {
   </div>
   <div class="card-body">
   <div style="text-align:center;">
-<iframe src="//www.highconvertingformats.com/watchnew?key=68abc6369e0cb0783b5fa66e913ca4fc" width="468" height="60" frameborder="0" scrolling="no"></iframe></div><br>
+<iframe src="//www.effectivedisplayformats.com/watchnew?key=7527a6e66c9a683813d8fe80219cbb1e" width="468" height="60" frameborder="0" scrolling="no"></iframe></div><br>
 <div class="input-group mb-4">
   <div class="input-group-prepend">
     <span class="input-group-text" id="">Full URL</span>
@@ -1321,7 +1321,7 @@ function file_pdf(path) {
   <div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
   <div class="btn-group text-center">
-  <a href="https://www.effectivecpmcontent.com/fnhu9h6khb?key=1c7bb61cfb671997c5d8bd6c82f2f6c7" type="button" class="btn btn-primary">HQ FAST DOWNLOAD</a>
+  <a href="https://www.safestgatetocontent.com/dd96h6n0b?key=3c40440077127b1eae59339de7681597" type="button" class="btn btn-primary">HQ FAST DOWNLOAD</a>
       <a href="${url}" type="button" class="btn btn-primary">Download</a>
       <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <span class="sr-only"></span>
@@ -1421,13 +1421,13 @@ function file_image(path) {
   <div class="card-body text-center">
   <div class="${UI.file_view_alert_class}" id="file_details" role="alert">${obj.name}<br>${size}</div>
   <div style="text-align:center;">
-<iframe src="//www.highconvertingformats.com/watchnew?key=93eba8acd0711afad1dad95466cb35e2" width="728" height="90" frameborder="0" scrolling="no"></iframe></div><br>
+<iframe src="//www.effectivedisplayformats.com/watchnew?key=2e2a9456e19ab31c427db4dd29e81e08" width="728" height="90" frameborder="0" scrolling="no"></iframe></div><br>
   <div>${targetText}</div><br>
   <img src="${url}" width="50%">
   </div>
   <div class="card-body">
   <div style="text-align:center;">
-<iframe src="//www.highconvertingformats.com/watchnew?key=68abc6369e0cb0783b5fa66e913ca4fc" width="468" height="60" frameborder="0" scrolling="no"></iframe></div><br>
+<iframe src="//www.effectivedisplayformats.com/watchnew?key=7527a6e66c9a683813d8fe80219cbb1e" width="468" height="60" frameborder="0" scrolling="no"></iframe></div><br>
 <div class="input-group mb-4">
   <div class="input-group-prepend">
     <span class="input-group-text" id="">Full URL</span>
@@ -1437,7 +1437,7 @@ function file_image(path) {
   <div class="card-text text-center">
   ${UI.display_drive_link ? '<a type="button" class="btn btn-info" href="https://drive.google.com/file/d/'+ obj.id +'/view" id ="file_drive_link" target="_blank">GD Link</a>': ''}
   <div class="btn-group text-center">
-  <a href="https://www.effectivecpmcontent.com/fnhu9h6khb?key=1c7bb61cfb671997c5d8bd6c82f2f6c7" type="button" class="btn btn-primary">HQ FAST DOWNLOAD</a>
+  <a href="https://www.safestgatetocontent.com/dd96h6n0b?key=3c40440077127b1eae59339de7681597" type="button" class="btn btn-primary">HQ FAST DOWNLOAD</a>
       <a href="${url}" type="button" class="btn btn-primary">Download</a>
       <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         <span class="sr-only"></span>
