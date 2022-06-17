@@ -23,8 +23,8 @@ const blocked_region = ['']; // add regional codes seperated by comma, eg. ['IN'
 const blocked_asn = []; // add ASN numbers from http://www.bgplookingglass.com/list-of-autonomous-system-numbers, eg. [16509, 12345]
 const authConfig = {
     "siteName": "Bhadoo Drive Index", // Website name
-    "client_id": "746239575955-oao9hkv614p8glrqpvuh5i8mqfoq145b.apps.googleusercontent.com", // Client id from Google Cloud Console
-    "client_secret": "u5a1CSY5pNjdD2tGTU93TTnI", // Client Secret from Google Cloud Console
+    "client_id": "", // Client id from Google Cloud Console
+    "client_secret": "", // Client Secret from Google Cloud Console
     "refresh_token": "", // Authorize token
     "service_account": false, // true if you're using Service Account instead of user account
     "service_account_json": randomserviceaccount, // don't touch this one
@@ -1190,7 +1190,7 @@ class googleDrive {
         let res;
          for (let i = 0; i < 3; i++) {
              res = await fetch(url, requestOption);
-             if (res.status === 200) {
+             if (res.ok) {
                  break;
              }
              await this.sleep(800 * (i + 1));
@@ -1258,7 +1258,7 @@ class googleDrive {
         let response;
         for (let i = 0; i < 3; i++) {
             response = await fetch(url, requestOption);
-            if (response.status === 200) {
+            if (response.ok) {
                 break;
             }
             await this.sleep(800 * (i + 1));
@@ -1327,7 +1327,7 @@ class googleDrive {
         let response;
         for (let i = 0; i < 3; i++) {
             response = await fetch(url, requestOption);
-            if (response.status === 200) {
+            if (response.ok) {
                 break;
             }
             await this.sleep(800 * (i + 1));
@@ -1415,7 +1415,7 @@ class googleDrive {
         let response;
         for (let i = 0; i < 3; i++) {
             response = await fetch(url, requestOption);
-            if (response.status === 200) {
+            if (response.ok) {
                 break;
             }
             await this.sleep(800 * (i + 1));
@@ -1541,7 +1541,7 @@ class googleDrive {
         let response;
         for (let i = 0; i < 3; i++) {
             response = await fetch(url, requestOption);
-            if (response.status === 200) {
+            if (response.ok) {
                 break;
             }
             await this.sleep(800 * (i + 1));
@@ -1596,7 +1596,7 @@ class googleDrive {
         let response;
         for (let i = 0; i < 3; i++) {
             response = await fetch(url, requestOption);
-            if (response.status === 200) {
+            if (response.ok) {
                 break;
             }
             await this.sleep(800 * (i + 1));
@@ -1608,7 +1608,7 @@ class googleDrive {
       let response;
       for (let i = 0; i < 3; i++) {
           response = await fetch(url, requestOption);
-          if (response.status === 200) {
+          if (response.ok) {
               break;
           }
           await this.sleep(800 * (i + 1));
